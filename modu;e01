@@ -1,0 +1,13 @@
+variables
+data types
+code = '1234'
+count = 0
+mycode = input('Enter passcode: ')
+while count <= 2:
+  if mycode = code:
+    print('Access granted')
+    break
+  else:
+    print('Nope ... try again: ')
+    count += 1
+    mycode = input('Enter passcode: ')
